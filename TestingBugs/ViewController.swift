@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: UIButton) {
-        print("Called buttonTapped(_:)")
+        print("Method: \(#function) in file: \(#file) line: \(#line) called.")
     }
 
     override func viewDidLoad() {
